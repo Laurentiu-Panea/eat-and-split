@@ -20,7 +20,7 @@ const initialFriends = [
     balance: 0,
   },
 ];
-
+const x = 0;
 export default function App() {
   const [friends, setFriends] = useState(initialFriends);
   const [showAddFriend, setShowAddFriend] = useState(false);
