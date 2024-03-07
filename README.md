@@ -1,3 +1,11 @@
+This project is a React application designed to manage shared expenses among friends. It allows users to add friends, track balances, and split bills efficiently. The main features include:
+
+Friends List: Displays a list of friends with their names, profile pictures, and balances. Users can select a friend to split bills with.
+Add Friend: Users can add new friends by providing their names and profile picture URLs.
+Split Bill: Enables users to split bills with selected friends. Users input the total bill amount and their own expenses. The application calculates the amount owed or owed to each party accordingly.
+Delete Friend: Allows users to remove a friend from the list, along with their associated expenses.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
