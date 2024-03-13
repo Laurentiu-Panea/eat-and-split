@@ -5,6 +5,29 @@ Add Friend: Users can add new friends by providing their names and profile pictu
 Split Bill: Enables users to split bills with selected friends. Users input the total bill amount and their own expenses. The application calculates the amount owed or owed to each party accordingly.
 Delete Friend: Allows users to remove a friend from the list, along with their associated expenses.
 
+Technical Description
+This React application is built with modern web development technologies and follows best practices in React development. Here's an overview of the techniques and technologies used:
+
+React  : The project is developed using React, a popular JavaScript library for building user interfaces. React's component-based architecture facilitates the organization and management of UI elements.
+
+React Hooks  : Utilizes React Hooks such as useState for managing state within functional components. This allows for stateful logic without using class components.
+
+Functional Components  : The project predominantly employs functional components instead of class components. Functional components are simpler and provide better readability and maintainability.
+
+State Management  : State management is handled using React's useState hook. It maintains the state of friends, showing/hiding add friend form, selected friend, and bill splitting information.
+
+Conditional Rendering  : Implements conditional rendering to display or hide UI elements based on certain conditions. For example, showing the add friend form or bill splitting form based on user interaction.
+
+Event Handling  : Utilizes event handling to manage user interactions. Functions like handleShowAddFriend, handleAddFriend, handleSelectedFriend, and handleSplitBill manage various user actions like adding friends, selecting friends, and splitting bills.
+
+Forms  : Implements forms for user input using standard HTML form elements. Data from these forms is captured using React state and processed accordingly.
+
+CSS  : The styling is done using CSS. Classes like .app, .sidebar, .button, .form-add-friend, and .form-split-bill are defined to style different components of the application.
+
+ES6 Features  : Employs ES6 features like arrow functions, destructuring, template literals, and let/const declarations for cleaner and more concise code.
+
+This project demonstrates proficiency in React development, including state management, event handling, and component composition. It also reflects familiarity with modern JavaScript and best practices in web development.
+
 
 # Getting Started with Create React App
 
